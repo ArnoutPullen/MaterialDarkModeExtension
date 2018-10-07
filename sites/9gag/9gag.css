@@ -1,0 +1,40 @@
+/* :root {
+    --primary-black: #000000;
+    --secondary-black: #232323;
+
+    --primary-white: #FFFFFF;
+    --secondary-white: #888888;
+
+    --border-color: #2f2f2f;
+} */
+:root {
+    --primary-black: #232323;
+    --secondary-black: #000000;
+    --tertiaire-black: #333333;
+
+    --primary-white: #888888;
+    --secondary-white: #ffffff;
+
+    --border-color: #2f2f2f;
+}
+
+body,
+.CS3 {
+    background-color: var(--primary-black)!important;
+}
+a,
+a h1 {
+    color: var(--secondary-white)!important;
+}
+a:hover,
+a h1:hover {
+    color: var(--primary-white)!important;
+}
+
+a#jsid-upload-btn {
+    color: var(--secondary-white)!important;
+}
+
+i.icon {
+    background-color: rgba(255, 255, 255, 0.3);
+}

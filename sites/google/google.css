@@ -1,0 +1,67 @@
+:root {
+    --primary-black: #232323;
+    --secondary-black: #000000;
+    --tertiaire-black: #333333;
+
+    --primary-white: #888888;
+    --secondary-white: #ffffff;
+
+    --border-color: #2f2f2f;
+}
+
+body,
+div#cnsh,
+#fbar,
+#appbar,
+.sfbg,
+.sfbgg,
+#hdtbSum {
+    background-color: var(--primary-black)!important;
+    color: var(--secondary-white)!important;
+}
+
+/* Search bar */
+input,
+input[type="submit"] {
+    background-color: transparent!important;
+    background-image: unset!important;
+    border-color: var(--border-color)!important;
+}
+input:hover {
+    color: var(--primary-white)!important;
+}
+/* Search dropdown */
+.sbsb_a, .sbdd_b {
+    background-color: var(--secondary-black)!important;
+    color: var(--primary-white)!important;
+}
+
+a,
+span,
+div {
+    color: var(--secondary-white)!important;
+}
+cite,
+a:hover {
+    color: var(--primary-white)!important;
+    text-decoration: unset!important;
+}
+
+/* Borders */
+#fbar,
+.b2hzT,
+.Teq10 {
+    border-color: var(--border-color)!important;
+}
+
+.fSXkBc span {
+    color: var(--primary-white)!important;
+}
+
+.sbib_a {
+    background-color: var(--secondary-black)!important;
+}
+
+.sbib_a input {
+    color: var(--primary-white)!important;
+}

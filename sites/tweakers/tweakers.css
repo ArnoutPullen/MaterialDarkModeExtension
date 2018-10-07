@@ -1,0 +1,247 @@
+:root {
+    /* --primary-black: #000000;
+    --secondary-black: #232323; */
+    --primary-black: #232323;
+    --secondary-black: #000000;
+    --tertiaire-black: #333333;
+
+    --primary-white: #888888;
+    --secondary-white: #ffffff;
+
+    --border-color: #2f2f2f;
+}
+
+/* Default */
+html body,
+#layout #contentArea,
+.darkFpBlock,
+.userReviewDescription,
+.fpaMeta {
+    background-color: var(--primary-black) !important;
+    color: var(--secondary-white) !important;
+}
+
+a {
+    color: var(--secondary-white) !important;
+    text-decoration: unset;
+}
+
+a:hover {
+    color: var(--primary-white) !important;
+    text-decoration: unset !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+.subtitle {
+    color: var(--secondary-white);
+}
+
+/* Buttons */
+.previousArticle, .nextArticle {
+    border: unset!important;
+    background-color: #a01737!important;
+}
+.fancyButton {
+    background-color: #a01737 !important;
+    border-color: #a01737 !important;
+    color: #fff !important;
+    background-image: unset !important;
+}
+
+/* Search bar */
+#top #searchbar {
+    background-color: var(--tertiaire-black) !important;
+    color: var(--secondary-white) !important;
+}
+
+#top #searchbar input {
+    background-color: var(--secondary-black);
+    color: var(--secondary-white);
+}
+
+.popup,
+.hr {
+    background-color: var(--primary-black) !important;
+}
+
+/* Set Border colors */
+#top,
+#mainSearch,
+#search input.submit,
+.nextPreviousArticleContainer .previousArticle,
+.nextPreviousArticleContainer .nextArticle,
+.relatedContentContainer .relatedContentItems .itemContainer,
+.relatedContentContainer .relatedSubjectsContainer .relatedSubjectItems .relatedSubject,
+#articleMeta .meta,
+#reacties #reactieContainer,
+.reactieBody,
+#reactieForm textarea,
+table.highlights td,
+table.highlights,
+.popup,
+.productSpecifications td,
+.specs .popularSpecs,
+.specs .popularSpecs th {
+    border-color: var(--border-color) !important;
+}
+
+.userReviewDescription {
+    background-image: unset !important;
+}
+
+.reactieBody {
+    background-color: var(--tertiaire-black) !important;
+    color: var(--secondary-white) !important;
+}
+
+#reactieForm textarea {
+    background-color: var(--tertiaire-black);
+    color: #fff;
+}
+
+/* Bars */
+.bar {
+    background-color: var(--tertiaire-black) !important;
+    color: var(--secondary-white) !important;
+    border-color: var(--border-color) !important;
+}
+
+/* Chat */
+.message,
+#pmreply_form,
+#folders,
+#pmadmin_form {
+    border-color: var(--border-color) !important;
+    background-color: var(--tertiaire-black) !important;
+    background-image: unset !important;
+    color: var(--secondary-white) !important;
+    box-shadow: unset !important;
+}
+
+/* Pricewatch */
+#categoryBrowser {
+    background-color: var(--primary-black) !important;
+    border-color: var(--primary-black) !important;
+}
+
+#categoryBrowser div {
+    background-color: var(--primary-black) !important;
+}
+
+#categoryBrowser div ul li:hover,
+#categoryBrowser div ul li:hover a {
+    background-color: #ac193b !important;
+    color: #fff !important;
+}
+
+#categoryBrowser .sublist.images {
+    background-color: transparent !important;
+}
+
+#categoryBrowser .sublist.images ul li {
+    border-color: var(--border-color) !important;
+    box-shadow: unset !important;
+}
+
+#categoryBrowser div {
+    border-color: var(--border-color) !important;
+}
+
+/* Pricewatch */
+.specs .popularSpecs {
+    background-color: #232323 !important;
+}
+
+.productSpecifications tbody tr:hover,
+.productSpecifications tbody tr:hover span {
+    background-color: #333333 !important;
+    color: #fff !important;
+}
+
+#entity {
+    background-color: #232323 !important;
+}
+
+.pageTabsContainer {
+    background-color: #232323 !important;
+}
+
+.pageTabs li {
+    background-color: #333333 !important;
+    background-image: unset !important;
+    border-color: var(--border-color) !important;
+}
+
+.pageTabs li.active {
+    background-color: #232323 !important;
+}
+
+#filter {
+    background-color: #333333 !important;
+    border-color: var(--border-color) !important;
+}
+
+#filter div,
+#filter span {
+    color: #fff !important;
+}
+
+.ellipsis.toggleCollapse {
+    color: var(--primary-white) !important;
+}
+
+#entity>div {
+    border-color: var(--border-color) !important;
+}
+
+/* Quote */
+.message-quote-div {
+    border-color: var(--border-color) !important;
+    background-color: #232323 !important;
+}
+
+/* Inbox */
+.info {
+    background-image: unset !important;
+    background-color: #232323 !important;
+    border-color: var(--border-color) !important;
+}
+
+table.listing td {
+    background-color: #232323 !important;
+    border-color: var(--border-color) !important;
+    color: #fff !important;
+}
+
+/* Review page */
+body.hero #layout #contentArea,
+body.hero #layout #contentArea .info {
+    background-image: unset !important;
+    background-color: #333333 !important;
+    color: #fff;
+}
+
+#toc {
+    background-color: #333333 !important;
+    box-shadow: unset !important;
+}
+
+.previous {
+    border-color: var(--border-color)!important;
+}
+.previous:hover {
+    background-color: #232323!important;
+    border-color: #232323!important;
+}
+.previous .label {
+    color: #fff!important;
+}
+.previous:hover .label {
+    color: var(--primary-white)!important;
+}
