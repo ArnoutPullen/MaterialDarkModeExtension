@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Material Design - Custom Dark Mode",
     "description": "Load custom css to set dark mode for some websites.",
-    "version": "1",
+    "version": "1.0.1",
     "author": "Arnout Pullen",
     "browser_action": {
         "default_icon": "assets/material-icon-128-128.png",
