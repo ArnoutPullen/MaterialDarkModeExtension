@@ -15,6 +15,10 @@
         {
             "matches": ["https://9gag.com/*"],
             "css": ["sites/9gag/9gag.css"]
+        },
+        {
+            "matches": ["https://web.whatsapp.com/*"],
+            "css": ["sites/whatsapp/whatsapp.css"]
         }
     ],
     "icons": {

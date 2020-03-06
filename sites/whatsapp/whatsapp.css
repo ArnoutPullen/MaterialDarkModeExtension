@@ -1,0 +1,168 @@
+:root {
+    --primary-black: #a21a39;
+    --secondary-black: #dae64a;
+
+    --primary-black: #232323;
+    --secondary-black: #000000;
+    --tertiaire-black: #333333;
+
+    --primary-white: #888888;
+    --secondary-white: #fff;
+
+    --border-color: #2f2f2f;
+}
+
+body,
+/* Loading Screen */
+#initial_startup, #startup,
+html[dir] ._1qNwV,
+/* Profile panel */
+html[dir] ._3Jvyf,
+/* Contact, Search panel */
+html[dir] ._2vikl,
+html[dir] .ZP8RM._19OGD,
+/* Contact, panel */
+html[dir] ._1YoG6,
+html[dir] ._2UaNq,
+/* Chat, input */
+html[dir] ._13mgZ,
+/* Chat, background */
+html[dir] .NuujD,
+/* Chat, quote */
+html[dir] .message-in ._2HTIU,
+/* Chat, link to page */
+html[dir] ._3qblR._1SsXF,
+/* Chat, Emotes, Search */
+html[dir] ._2Qm0c,
+/* Chat, Emotes */
+html[dir] .QChXd,
+/* Chat, Response, Message */
+html[dir] ._2I-yY,
+/* Chat, Popup */
+html[dir] ._1HjMu,
+/* Chat, Sticker */
+html[dir] .jkZx4,
+/* Chat, Unread messages */
+html[dir] ._1lo-H,
+/* Chat, Search, Panel Top */
+html[dir] .kiodY,
+/* New group, contact search panel */
+html[dir] ._1w-mX,
+/* My profile, Your name / About */
+html[dir] ._2LSbZ,
+/* Settings, Buttons */
+html[dir] ._26JG5 {
+    background-color: var(--primary-black) !important;
+}
+
+html[dir] .message-in ._2Wx_5,
+html[dir] .message-out ._2Wx_5,
+/* Contact, search */
+html[dir] .eiCXe,
+/* Chat, day bubble */
+html[dir] .a7otO,
+/* Chat Emotes, Tabs */
+html[dir] ._2avTY,
+/* Chat, Response */
+html[dir] ._1ebw2,
+/* Chat, Emotes, Search, Input */
+._2gisX,
+/* Chat, Gif */
+html[dir=ltr] ._3HCkv,
+/* Chat, Response, Close */
+html[dir] .OWYLS,
+/* Chat, New, Panel */
+html[dir] .r7sRK,
+/* Chat, New, Search */
+html[dir] .ZP8RM,
+/* Chat, Popup, Slider */
+html[dir] ._2n0jo,
+/* Chat, Popup, Top Panel */
+html[dir] .cGLoy,
+html[dir] .cGLoy ._2UaNq,
+/* Panel */
+html[dir] ._1KDYa,
+/* Chat, Search, Panel */
+html[dir] ._1Kstu {
+    background-color: var(--secondary-black) !important;
+}
+
+/* Chat, person panel */
+html[dir] ._3fs0K,
+/* Chat, input */
+html[dir] ._2i7Ej,
+/* Chat, Select Messages */
+html[dir] ._2aUit
+{
+    background-color: var(--tertiaire-black) !important;
+}
+
+/* Menu, popover */
+html[dir] ._2hHc6,
+html[dir] ._2hHc6 div {
+    background-color: var(--secondary-black) !important;
+    color: var(--primary-white) !important;
+}
+
+html[dir] ._2UaNq div,
+html[dir] ._1qNwV div,
+html[dir] ._13mgZ div,
+._19vo_,
+/* Chat, message */
+html[dir] .message-in ._2Wx_5,
+html[dir] .message-out ._2Wx_5,
+/* Chat, quote */
+html[dir] .message-in ._2HTIU div,
+/* Chat, link to page */
+html[dir] ._3qblR._1SsXF div,
+/* Chat, day bubble */
+html[dir] .a7otO,
+/* Chat, Emotes, Search, Input */
+html[dir] ._2GXNm::placeholder,
+/* Chat, New, Search */
+html[dir] .ZP8RM._19OGD ._2zCfw,
+strong,
+div,
+span {
+    color: var(--primary-white) !important;
+}
+
+svg path,
+/* Chat, Emotes, Tabs:Current */
+._2wn58 svg path {
+    fill: var(--primary-white) !important;
+}
+
+/* Chat, day bubble */
+html[dir] .a7otO {
+    text-shadow: none !important;
+}
+
+/* Chat, Message, Hide corner */
+html[dir=ltr] .message-in .tail-container,
+html[dir=ltr] .message-out .tail-container {
+    background-image: none!important;
+}
+
+/* Contacts */
+html[dir] ._2WP9Q,
+html[dir] ._2UaNq,
+html[dir] ._2UaNq._3mMX1:after,
+html[dir] ._2UaNq:hover:after,
+/* Chat, input */
+html[dir] ._13mgZ,
+/* Chat, Popup, Slides */
+html[dir] ._2n0jo,
+/* Chat, Panel */
+html[dir=ltr] ._3fs0K,
+/* Settings Buttons */
+html[dir] ._26JG5+._26JG5 ._27Ie2,
+html[dir] ._26JG5::before {
+    border-color: var(--border-color) !important;
+}
+
+/* Chat, Arrow down */
+html[dir=ltr] ._15CAo._2Nkc4,
+html[dir=ltr] ._15CAo._3EQsG {
+    background: var(--secondary-black) !important;
+}
